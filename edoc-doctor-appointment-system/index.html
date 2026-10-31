@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animations.css">  
+    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/index.css">
+    <title>eDoc</title>
+    <style>
+        table{
+            animation: transitionIn-Y-bottom 0.5s;
+        }
+        .role-card {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .role-card:hover {
+            transform: translateY(-5px);
+        }
+        .role-card h3 {
+            margin-top: 0;
+            color: #007bff;
+        }
+        .role-card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+    </style>
+        
+</head>
+<body>
+    
+    <div class="full-height">
+        <center>
+        <table border="0">
+            <tr>
+                <td width="80%">
+                    <font class="edoc-logo">eDoc. </font>
+                    <font class="edoc-logo-sub">| THE ECHANNELING PROJECT</font>
+                </td>
+                <td width="10%">
+                   <a href="login.php"  class="non-style-link"><p class="nav-item">LOGIN</p></a>
+                </td>
+                <td  width="10%">
+                    <a href="signup.php" class="non-style-link"><p class="nav-item" style="padding-right: 10px;">REGISTER</p></a>
+                </td>
+            </tr>
+            
+            <tr>
+                <td  colspan="3">
+                    <p class="heading-text">AI-Powered Medical Care.</p>
+
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="3">
+                    <p class="sub-text2">How is health today? Get instant AI-powered health insights!<br>Find your doctor online and consult with our Medical AI Assistant. <br>
+                    We offer you a free doctor channeling service and diagnostic support, Make your appointment now.</p>
+                </td>
+            </tr>
+            <tr>
+                
+                <td colspan="3">
+                    <center>
+                    <a href="login.php" >
+                        <input type="button" value="Make Appointment" class="login-btn btn-primary btn" style="padding-left: 25px;padding-right: 25px;padding-top: 10px;padding-bottom: 10px;">
+                    </a>
+                </center>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <center>
+                    <div style="display: flex; justify-content: center; gap: 20px; margin-top: 50px;">
+                        <div class="role-card">
+                            <h3>Admin</h3>
+                            <p>Manage doctors, schedules, and view system analytics.</p>
+                            <a href="admin/index.php" class="non-style-link"><input type="button" value="Admin Portal" class="login-btn btn-primary-soft btn"></a>
+                        </div>
+                        <div class="role-card">
+                            <h3>Doctor</h3>
+                            <p>View your appointments, manage sessions, and patient details.</p>
+                            <a href="doctor/index.php" class="non-style-link"><input type="button" value="Doctor Portal" class="login-btn btn-primary-soft btn"></a>
+                        </div>
+                        <div class="role-card">
+                            <h3>Patient</h3>
+                            <p>Find doctors, book appointments, and track your health journey.</p>
+                            <a href="patient/index.php" class="non-style-link"><input type="button" value="Patient Portal" class="login-btn btn-primary-soft btn"></a>
+                        </div>
+                    </div>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                   
+                </td>
+            </tr>
+        </table>
+        <p class="sub-text2 footer-hashen">A Web Solution by Hashen.</p>
+    </center>
+    
+    </div>
+</body>
+</html>
